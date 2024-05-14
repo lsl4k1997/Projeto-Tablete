@@ -13,9 +13,7 @@ html, body{
     width: 100vw;
     height: 100vh;
 }
-nav{
-    text-align: center;
-}
+
 nav a img{
     width: 150px;
     padding: 10px;
