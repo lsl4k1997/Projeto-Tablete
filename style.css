@@ -13,38 +13,51 @@ html, body{
     width: 100vw;
     height: 100vh;
 }
+nav a img{
+    width: 150px;
+    padding: 10px;
+    border-radius: 50%;
+}
+nav > a > img:hover{
+    border: 1px solid white;
+    transform: translate(10%, 10%);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.664);
+}
 main{
     position: relative;
     height: 100%;
-    background-image: url(imagens/fundo.jpg);
+    background-image: url(imagens/fundo4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 iframe{
     position: relative;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    width: 83vw;
-    height: 61vh;
+    width: 66vw;
+    height: 58vh;
     position: fixed;
     background-attachment: fixed;
 
-    border: 1px solid black;
 }
 img#tablete{
     position: relative;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    width: 100vw;
-    height: 100vh;
+    width: 81vw;
+    height: 64vh;
     position: fixed;
     background-attachment: fixed;   
 }
 
 footer{
+    padding-top: 5px;
     width: 100vw;
     position: absolute;
     text-align: center;
