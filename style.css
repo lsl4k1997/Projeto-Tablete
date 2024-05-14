@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    position: relative;
+    height: 100%;
+    background-image: url(imagens/fundo.jpg);
+}
+
+iframe{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 83vw;
+    height: 61vh;
+    position: fixed;
+    background-attachment: fixed;
+
+    border: 1px solid black;
+}
+img#tablete{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-attachment: fixed;   
+}
+
+footer{
+    width: 100vw;
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+footer a{
+    color: white;
+}
+::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+}
